@@ -2,15 +2,6 @@ CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
 CONFIG_GRUB_IMAGES=y
-CONFIG_PACKAGE_kmod-usb-serial=y
-CONFIG_PACKAGE_kmod-usb-serial-ftdi=m
-CONFIG_PACKAGE_kmod-usb-serial-pl2303=m
-CONFIG_PACKAGE_libnetsnmp=y
-CONFIG_PACKAGE_luci-app-argon-config=y
-CONFIG_PACKAGE_luci-compat=y
-CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
-CONFIG_PACKAGE_openssh-sftp-server=y
-CONFIG_PACKAGE_snmpd=y
 CONFIG_KEEPALIVED_CHECKSUM_COMPAT=y
 CONFIG_KEEPALIVED_FWMARK=y
 CONFIG_KEEPALIVED_IPTABLES=y
@@ -24,20 +15,15 @@ CONFIG_KEEPALIVED_VRRP=y
 CONFIG_KEEPALIVED_VRRP_AUTH=y
 # CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
 # CONFIG_PACKAGE_adbyby is not set
-# CONFIG_PACKAGE_attr is not set
 CONFIG_PACKAGE_autoconf=y
 CONFIG_PACKAGE_automake=y
-# CONFIG_PACKAGE_autosamba is not set
-# CONFIG_PACKAGE_avahi-dbus-daemon is not set
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_bird1-ipv4=y
 CONFIG_PACKAGE_bird1-ipv4-uci=y
 CONFIG_PACKAGE_boost=y
 CONFIG_PACKAGE_boost-program_options=y
 CONFIG_PACKAGE_boost-system=y
-# CONFIG_PACKAGE_chinadns-ng is not set
 CONFIG_PACKAGE_coreutils-nohup=y
-# CONFIG_PACKAGE_dbus is not set
 # CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
 CONFIG_PACKAGE_etherwake=y
 CONFIG_PACKAGE_haproxy=y
@@ -60,34 +46,26 @@ CONFIG_PACKAGE_kmod-ipt-iprange=y
 CONFIG_PACKAGE_kmod-ipt-socket=y
 # CONFIG_PACKAGE_kmod-iptunnel6 is not set
 CONFIG_PACKAGE_kmod-nf-socket=y
-# CONFIG_PACKAGE_libattr is not set
-# CONFIG_PACKAGE_libavahi-client is not set
-# CONFIG_PACKAGE_libavahi-dbus-support is not set
+CONFIG_PACKAGE_kmod-usb-serial=y
+CONFIG_PACKAGE_kmod-usb-serial-ftdi=m
+CONFIG_PACKAGE_kmod-usb-serial-pl2303=m
 CONFIG_PACKAGE_libbz2=y
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
-# CONFIG_PACKAGE_libdaemon is not set
-# CONFIG_PACKAGE_libdbus is not set
-# CONFIG_PACKAGE_libexpat is not set
 CONFIG_PACKAGE_libffi=y
 CONFIG_PACKAGE_libgdbm=y
-# CONFIG_PACKAGE_libgnutls is not set
 CONFIG_PACKAGE_libltdl=y
 CONFIG_PACKAGE_liblua5.3=y
 CONFIG_PACKAGE_liblzma=y
 CONFIG_PACKAGE_libmagic=y
-# CONFIG_PACKAGE_libnettle is not set
+CONFIG_PACKAGE_libnetsnmp=y
 CONFIG_PACKAGE_libnfnetlink=y
 CONFIG_PACKAGE_libnl-core=y
 CONFIG_PACKAGE_libnl-genl=y
 CONFIG_PACKAGE_libnl-route=y
-# CONFIG_PACKAGE_libpopt is not set
 CONFIG_PACKAGE_libpython3=y
 CONFIG_PACKAGE_libruby=y
 CONFIG_PACKAGE_libsqlite3=y
-# CONFIG_PACKAGE_libtasn1 is not set
-# CONFIG_PACKAGE_libtirpc is not set
-# CONFIG_PACKAGE_liburing is not set
 CONFIG_PACKAGE_libyaml=y
 # CONFIG_PACKAGE_lua-neturl is not set
 # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
@@ -99,7 +77,6 @@ CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
-# CONFIG_PACKAGE_luci-app-samba4 is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
 # CONFIG_PACKAGE_luci-app-unblockmusic is not set
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
@@ -186,10 +163,9 @@ CONFIG_PACKAGE_ruby-psych=y
 CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-strscan=y
 CONFIG_PACKAGE_ruby-yaml=y
-# CONFIG_PACKAGE_samba4-libs is not set
-# CONFIG_PACKAGE_samba4-server is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+CONFIG_PACKAGE_snmpd=y
 # CONFIG_PACKAGE_strongswan is not set
 CONFIG_PACKAGE_trojan-plus=y
 CONFIG_PACKAGE_unzip=y
@@ -197,7 +173,6 @@ CONFIG_PACKAGE_v2ray-core=y
 CONFIG_PACKAGE_v2ray-plugin=y
 # CONFIG_PACKAGE_vsftpd-alt is not set
 CONFIG_PACKAGE_wol=y
-# CONFIG_PACKAGE_wsdd2 is not set
 CONFIG_PERL_NOCOMMENT=y
 CONFIG_PERL_THREADS=y
 CONFIG_SQLITE3_COLUMN_METADATA=y
